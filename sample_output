@@ -1,0 +1,63 @@
+eitanshay@eitans-air Downloads % python3 goodreads-recommender.py                         
+Goodreads Book Recommender
+==========================
+Enter the path to your Goodreads export CSV file: goodreads_library_export.csv
+Loading data from CSV file: goodreads_library_export.csv
+Found columns: Book Id, Title, Author, Author l-f, Additional Authors, ISBN, ISBN13, My Rating, Average Rating, Publisher, Binding, Number of Pages, Year Published, Original Publication Year, Date Read, Date Added, Bookshelves, Bookshelves with positions, Exclusive Shelf, My Review, Spoiler, Private Notes, Read Count, Owned Copies
+
+Preparing your book data...
+Found shelf information in column: bookshelves
+Found 180 books you're currently reading
+Using rated books as read books
+Total books excluded from recommendations: 561
+Prepared 385 rated books for analysis
+
+Generating content features for recommendations...
+Created content-based features
+
+Generating book recommendations based on your ratings...
+Using a sample of 5 highly rated books from your 293 highly rated books
+
+Recommended Books:
+=================
+1. 'The Dark Forest (Remembrance of Earth’s Past, #2)' by Liu Cixin
+   Reason: You rated books by Liu Cixin an average of 5.0/5
+   Predicted rating: 4.7/5
+
+2. 'A Desolation Called Peace (Teixcalaan, #2)' by Arkady Martine
+   Reason: You rated books by Arkady Martine an average of 5.0/5
+   Predicted rating: 4.7/5
+
+3. 'Inspired: How To Create Products Customers Love' by Marty Cagan
+   Reason: You rated books by Marty Cagan an average of 5.0/5
+   Predicted rating: 4.6/5
+
+4. 'Think Again: The Power of Knowing What You Don't Know' by Adam M. Grant
+   Reason: You rated books by Adam M. Grant an average of 5.0/5
+   Predicted rating: 4.6/5
+
+5. 'Hidden Potential: The Science of Achieving Greater Things' by Adam M. Grant
+   Reason: You rated books by Adam M. Grant an average of 5.0/5
+   Predicted rating: 4.6/5
+
+6. 'Emergency Skin' by N.K. Jemisin
+   Reason: You rated books by N.K. Jemisin an average of 5.0/5
+   Predicted rating: 4.5/5
+
+7. 'Son (The Giver, #4)' by Lois Lowry
+   Reason: You rated books by Lois Lowry an average of 5.0/5
+   Predicted rating: 4.5/5
+
+8. 'Gathering Blue' by Lois Lowry
+   Reason: You rated books by Lois Lowry an average of 5.0/5
+   Predicted rating: 4.4/5
+
+9. 'Yellowface' by R.F. Kuang
+   Reason: You rated books by R.F. Kuang an average of 5.0/5
+   Predicted rating: 4.4/5
+
+10. 'The Doors of Stone (The Kingkiller Chronicle, #3)' by Patrick Rothfuss
+   Reason: You rated books by Patrick Rothfuss an average of 5.0/5
+   Predicted rating: 4.3/5
+
+Done!
